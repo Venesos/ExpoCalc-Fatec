@@ -35,3 +35,9 @@ src/
 Instalados com as versões do SDK 54:
 `@react-navigation/native`, `@react-navigation/native-stack`, `react-native-screens`,
 `react-native-safe-area-context` e `@react-native-async-storage/async-storage`.
+
+## Evoluções feitas (Atividade 24/10)
+
+- **Evolução 1:** botão "Limpar histórico" na tela de histórico (apaga da tela e do AsyncStorage). A Home recarrega o histórico a cada vez que ganha foco.
+- **Evolução 2:** botão "Excluir" em cada conta do histórico, usando `filter` e salvando a nova lista.
+- **Evolução 3:** tocar numa conta do histórico volta para a calculadora com o resultado no display (`navigation.popTo` + `useEffect`).
